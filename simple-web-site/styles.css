@@ -11,5 +11,63 @@ body {
 	background-color: #f0f0f0;
 	text-align: center;
 }
-
-/* Your CSS Here */
+#header{
+	display:flex;
+	background-color: #444444;
+	padding:20px;
+	justify-content:space-between;
+}
+nav {
+	width: 40%;
+	padding-right:10px;
+	height: 50px;
+	margin: 0;
+	position: relative;
+	background-color: #444444;
+  }
+  h1{
+	padding-top:30px;
+	color:white;
+  }
+  .navbar {
+	height: 45px;
+	width: 520px;
+	padding: 0;
+	margin: 20px;
+	position: absolute;
+  }
+  .navbar li {
+	height: auto;
+	width: 80px;
+	float:inline-start;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin:0;
+	background-color: grey;
+  }
+  .navbar a {
+	padding-right:10px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-decoration: none;
+	color: white;
+	display: block;
+  }
+  .navbar li:hover,
+  a:hover {
+	background-color: #444444;
+  }
+  .navbar li ul {
+	display: none;
+	height: auto;
+	margin: 0;
+	padding: 0;
+  }
+  .navbar li:hover ul {
+	display: block;
+  }
+  .navbar li ul li {
+	background-color: #444444;
+  }
+  
