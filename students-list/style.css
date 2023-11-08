@@ -65,3 +65,48 @@ a{
     color:white;
     font-size: 15px;
 }
+button[type="submit"]:hover{
+  background-color: rgb(255, 115, 0);
+  color:white;
+}
+
+#main ul li:nth-child(even){
+  background-color:aqua;
+}
+#main ul li:nth-child(odd){
+  background-color:pink;
+}
+#main ul li.selected{
+  background-color: green;
+}
+#main ul li:hover{
+  background-color:white;
+}
+#main ul li{
+  list-style-type: none;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  margin-left:-40px;
+  font-size:20px;
+}
+
+#main ul input{
+  position:absolute;
+  left:88%;
+  height:40px;
+  width:140px;
+  padding:10px;
+  margin:-10px;
+  font-size:15px;
+}
+#selected-mark{
+  display:inline;
+  margin-left:-20px;
+}
+label[for="petar-grade"]{
+  text-decoration: line-through;
+}
+
+
+
