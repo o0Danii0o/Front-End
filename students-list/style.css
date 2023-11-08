@@ -104,7 +104,7 @@ button[type="submit"]:hover{
   display:inline;
   margin-left:-20px;
 }
-label[for="petar-grade"]{
+#petar-grade{
   text-decoration: line-through;
 }
 
