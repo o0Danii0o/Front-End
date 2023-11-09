@@ -105,10 +105,17 @@ a:hover {
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-bottom:80px;
 }
 .column1,.column2{
 	width:50%;
+}
+.column2{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.column2 p{
+	text-align: left;
 }
 .row1,.row2,.row3{
 	display:flex;
@@ -116,6 +123,7 @@ a:hover {
 	flex-direction:row;
 	justify-content: space-around;
 	padding-top:60px;
+	padding-bottom:40px;
 	margin-right:20%;
 }
 .picture{
@@ -123,10 +131,12 @@ a:hover {
 	width:200px;
 }
 #footer{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
 	bottom:0;
-	padding:10px;
+	height:50px;
 	width:100%;
-	text-align:center;
 	background-color: #333333;
 	color:white;
 }
@@ -139,15 +149,26 @@ a:hover {
 		padding-top: 30px;
 		padding-bottom: 50px;
 	}
-
+	.first-part{
+		padding-top:75px;
+		padding-bottom:140px;
+	}
 	#header {
 		display: block;
 		height: 480px;
 		background-color: #333333;
 		padding-top: 30px;
-		padding-bottom: 20px;
+		padding-bottom:5px;
 	}
-
+	.row1{
+		padding-top:100px;
+	}
+	.row3{
+		padding-bottom:50px;
+	}
+	.column2{
+		width:40%;
+	}
 	.navbar {
 		height: 100px;
 		padding: 0;
@@ -196,5 +217,3 @@ a:hover {
 	}
 }
 
-
-/* only thing left to adjust the picture they asked for and the text inside paragraphs;*/
