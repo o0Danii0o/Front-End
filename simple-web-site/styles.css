@@ -16,7 +16,7 @@ body {
 #header {
 	display: flex;
 	background-color: #333333;
-	padding: 10px;
+	padding: 25px;
 	justify-content: space-between;
 	align-content: center;
 }
@@ -78,13 +78,51 @@ a:hover {
 .navbar li ul li {
 	background-color: #333333;
 }
+.first-part{
+	display:flex;
+	background-color: #CCCCCC;
+	justify-content: center;
+	padding-top:80px;
+	padding-bottom:140px;
+}
+.first-part div p{
+	font-size:18px;
+}
+.first-part div h2{
+	font-size:36px;
+}
 
-
-
-
-
+.first-part div{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+	height:175px;
+	width:840px;
+	margin-top:60px;
+}
+.second-part{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom:80px;
+}
+.column1,.column2{
+	width:50%;
+}
+.row1,.row2,.row3{
+	display:flex;
+	width:100%;
+	flex-direction:row;
+	justify-content: space-around;
+	padding-top:60px;
+	margin-right:20%;
+}
+.picture{
+	height:200px;
+	width:200px;
+}
 #footer{
-	position:fixed;
 	bottom:0;
 	padding:10px;
 	width:100%;
@@ -98,15 +136,15 @@ a:hover {
 		font-size: 36px;
 		color: white;
 		height: 30px;
-		padding-top: 20px;
-		padding-bottom: 40px;
+		padding-top: 30px;
+		padding-bottom: 50px;
 	}
 
 	#header {
 		display: block;
-		height: 450px;
+		height: 480px;
 		background-color: #333333;
-		padding-top: 20px;
+		padding-top: 30px;
 		padding-bottom: 20px;
 	}
 
@@ -157,3 +195,6 @@ a:hover {
 
 	}
 }
+
+
+/* only thing left to adjust the picture they asked for and the text inside paragraphs;*/
