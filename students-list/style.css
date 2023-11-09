@@ -71,13 +71,13 @@ button[type="submit"]:hover{
 }
 
 #main ul li:nth-child(even){
-  background-color:aqua;
+  background-color:#97CCE8;
 }
 #main ul li:nth-child(odd){
-  background-color:pink;
+  background-color:#F5C3CB;
 }
 #main ul li.selected{
-  background-color: green;
+  background-color: #377E22;
 }
 #main ul li:hover{
   background-color:white;
