@@ -82,8 +82,8 @@ a:hover {
 	display:flex;
 	background-color: #CCCCCC;
 	justify-content: center;
-	padding-top:80px;
-	padding-bottom:140px;
+	padding-top:35px;
+	padding-bottom:95px;
 }
 .first-part div p{
 	font-size:18px;
@@ -97,7 +97,7 @@ a:hover {
 	flex-direction: column;
 	justify-content: center;
 	background-color: white;
-	height:175px;
+	height:150px;
 	width:840px;
 	margin-top:60px;
 }
@@ -122,8 +122,8 @@ a:hover {
 	width:100%;
 	flex-direction:row;
 	justify-content: space-around;
-	padding-top:60px;
-	padding-bottom:40px;
+	padding-top:35px;
+	padding-bottom:20px;
 	margin-right:20%;
 }
 .picture{
@@ -135,7 +135,7 @@ a:hover {
 	flex-direction: column;
 	justify-content: center;
 	bottom:0;
-	height:50px;
+	height:40px;
 	width:100%;
 	background-color: #333333;
 	color:white;
@@ -146,25 +146,21 @@ a:hover {
 		font-size: 36px;
 		color: white;
 		height: 30px;
-		padding-top: 30px;
-		padding-bottom: 50px;
-	}
-	.first-part{
-		padding-top:75px;
-		padding-bottom:140px;
+		padding-top: 15px;
+		padding-bottom: 30px;
 	}
 	#header {
 		display: block;
-		height: 480px;
+		height: 400px;
 		background-color: #333333;
-		padding-top: 30px;
-		padding-bottom:5px;
+		padding-top: 20px;
+		padding-bottom:10px;
 	}
 	.row1{
-		padding-top:100px;
+		padding-top:50px;
 	}
 	.row3{
-		padding-bottom:50px;
+		padding-bottom:25px;
 	}
 	.column2{
 		width:40%;
@@ -199,7 +195,7 @@ a:hover {
 		width: 80px;
 		list-style: none;
 		margin-left: 0;
-		padding-top: 13px;
+		padding-top: 5px;
 		padding-right: 20px;
 		background-color: #444444;
 	}
