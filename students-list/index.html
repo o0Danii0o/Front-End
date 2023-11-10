@@ -12,30 +12,33 @@
 <body>
 	<div id="container">
 		<header id="header" class="header">
-			<p id="main-name"> Списък от студенти </p>
-			<nav class ="menu"> 
-				<a href="#"> Помощ </a>
-				<a href="#"> Начало </a>
-				<a href="#"> Изход </a>
-			</nav>
-			<input type="text" name="student-name" placeholder ="Име на студент">
-			<button type="submit">Добави</button>
+			<section class="intro">
+				<h1 id="main-name"> Списък от студенти </h1>
+				<nav class="menu">
+					<a href="#"> Изход </a>
+					<a href="#"> Начало </a>
+					<a href="#"> Помощ </a>
+				</nav>
+			</section>
+			<section class="name-input">
+				<input type="text" name="student-name" placeholder="Име на студент">
+				<button type="submit">Добави</button>
+			</section>
 		</header>
 
 		<main id="main">
-			
 			<ul>
-				<li> 
+				<div id="selected-mark">&#10004;</div>
+				<li>
 					<label id="ivan-grade"> Иван </label>
 					<input type="number" id="ivan" name="ivan" placeholder="Оценка"><br>
 				</li>
-				<li> 
+				<li>
 					<label id="elena-grade"> Елена </label>
 					<input type="number" id="elena" name="elena" placeholder="Оценка"><br>
 				</li>
-					
+
 				<li class="selected">
-					<div id="selected-mark">&#10004;</div>
 					<label id="petar-grade"> Петър </label>
 					<input type="number" id="petar" name="petar" placeholder="Оценка"><br>
 				</li>
@@ -57,7 +60,7 @@
 					<input type="number" id="martin" name="martin" placeholder="Оценка"><br>
 				</li>
 			</ul>
-			
+
 		</main>
 	</div>
 </body>
