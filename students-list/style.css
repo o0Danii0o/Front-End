@@ -105,12 +105,11 @@ button[type="submit"]:hover{
 }
 #selected-mark{
   display:flex;
-  border-bottom:solid 2px black;
-  border-right:solid 2px black;
+  border-bottom:solid 2px white;
+  border-right:solid 2px white;
   width:5px;
   height:15px;
   transform:rotate(45deg);
-  color: white;
   margin-top:10px;
   margin-right:12px;
 }
