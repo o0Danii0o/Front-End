@@ -105,9 +105,13 @@ button[type="submit"]:hover{
 }
 #selected-mark{
   display:flex;
-  flex-direction: column;
-  justify-content: center;
+  border-bottom:solid 2px black;
+  border-right:solid 2px black;
+  width:5px;
+  height:15px;
+  transform:rotate(45deg);
   color: white;
+  margin-top:10px;
   margin-right:12px;
 }
 #petar-grade{
