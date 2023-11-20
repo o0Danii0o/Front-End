@@ -28,8 +28,12 @@ h1{
   width:75%;
   color:white;
 }
+
 .menu{
   width:25%;
+  display:flex;
+  height:max-content;
+  justify-content:flex-end;
 }
 .menu a{
   padding:8px 16px 8px 16px;
@@ -37,7 +41,6 @@ h1{
   text-decoration:none;
   color:white;
   border:2px dotted #0000F5;
-  float:right;
   margin-right:8px;
 }
 [name = "student-name"]{
